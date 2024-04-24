@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 def colorful_header(text):
     # ANSI escape sequences for colors
-    HEADER = '<h1 style="color: #000000;">'
+    HEADER = '<h1 style="color: #ff0000;">'
     END = '</h1>'
     return f"{HEADER}{text}{END}"
 
